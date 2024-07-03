@@ -237,7 +237,7 @@ footer p{
     }
     .astronaut-grid{
         display: grid;
-        grid-template-columns: repeat(1, 35.2rem);
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 5.0rem;
     }
     /* cards */
@@ -275,3 +275,10 @@ footer p{
    
 }
 
+/* tablet and desktop */
+@media (min-width: 768px ) and (max-width: 1024px) {
+    form{
+        width: 100%;
+        margin: 7.8rem 0rem 6.5rem 0rem;
+    }
+}
